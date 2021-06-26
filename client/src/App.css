@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div1
+{
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid darksalmon; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  border: none;
+  border-bottom: 2px solid rgb(155, 153, 153);
+  outline: none;
+  margin-left: 10px;
+  width: 80%;
+}
+.main-div2{
+  /* border: 1px solid red; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 2px 2px 2px 2px rgb(216, 211, 210);
+  box-sizing: border-box;
+}
+.main-div21{
+  /* border: 1px solid rgb(34, 32, 32); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+img{
+  width: 90%;
+  height: 80%;
+}
+.img2{
+  width: 100%;
+  height: 80%;
+}
+.level1{
+  position: relative;
+}
+.bodernon{
+  position: absolute;
+  left: 40px;
+  transition: all 0.3s;
+}
+.level1 input:focus ~ label,
+.level1 input:valid ~ label{
+  transform: translateY(-20px);
+}
+/* 
+.bodernon{
+  border: none;
+} */
+
+@media screen and (max-width: 768px) {
+  .main-div2{
+      padding: 0;
+  }
+}
+.f-wrap{
+  flex-wrap: wrap;
+}
+
+.Get_In_Touch{
+  padding-left: 100px;
+}
+.btn_padding{
+  margin-left: 100px;
+
+}
+
+.main-div-about{
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.marbotom{
+  margin-bottom: 80px;
+}
+.about-img{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-div-about{
+      margin-top: 120px;
+  }
+  .about-img{
+    width: 100px;
+    height: 200px;
+  }
+}
+.break{
+  word-wrap: break-word;
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(43, 189, 226);
+}
